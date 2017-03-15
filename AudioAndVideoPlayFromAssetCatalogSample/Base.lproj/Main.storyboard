@@ -38,7 +38,7 @@
                                                 <rect key="frame" x="0.0" y="50" width="77" height="30"/>
                                                 <state key="normal" title="Play Movie"/>
                                                 <connections>
-                                                    <segue destination="aNh-cg-Uma" kind="show" identifier="AVPlayerViewController" id="FJG-BE-Hhl"/>
+                                                    <segue destination="aNh-cg-Uma" kind="presentation" identifier="AVPlayerViewController" id="FJG-BE-Hhl"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -66,11 +66,10 @@
             </objects>
             <point key="canvasLocation" x="2632.8000000000002" y="-321.58920539730138"/>
         </scene>
-        <!--First-->
+        <!--Navigation Controller-->
         <scene sceneID="MjG-bt-tfN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V8a-Qv-pf8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eO4-2u-5Ki">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -86,7 +85,4 @@
             <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="first" width="30" height="30"/>
-    </resources>
 </document>

@@ -29,7 +29,7 @@ class FirstViewController: UIViewController {
         let asset = NSDataAsset(name:"movie")
         
         let videoUrl = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("movie.mp4")
-        try! asset!.data.write(to: videoUrl, options: [.atomic])
+        try! asset!.data.write(to: videoUrl)
         
         let item = AVPlayerItem(url: videoUrl)
         destination.player = AVPlayer(playerItem: item)
